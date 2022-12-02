@@ -1,0 +1,9 @@
+body {
+  font-family: 'Inter', Tahoma, sans-serif;
+}
+
+.background_desktop {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 130vh;
+}
