@@ -20,7 +20,7 @@
 <body>
 
   <div class="background_desktop">
-    <header class="navigation , flex">
+    <div class="navigation , flex">
       <a href="index.html" class="logo , flex"> Welcome </a>
       <nav>
         <ul class="nav_collapse , flex" id="collapse">
@@ -33,8 +33,8 @@
           <img src="./assets/images/toolbar.png" alt="Toolbar Icon">
         </label>
       </nav>
-    </header>
-    <section class="hero">
+    </div>
+    <section class="hero , flex">
       <h1 class="hero_head">Hey there. I'm Jose Delphin.<br> <span>I'm a software developer</span></h1>
       <p class="hero_content">I can help you build a product, feature or website. Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -70,7 +70,23 @@
           <li>JavScript</li>
           <li>html</li>
         </ul>
-        <div class="errorButton">
+        <div class="errorButton , flex">
+          <button class="form_button" type="button">See project</button>
+          <small class="collapse , flex"></small>
+        </div>
+      </li>
+      <li class="nested_flexbox">
+        <div class="items_space">
+
+        </div>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
+        <ul>
+          <li>Ruby on rails</li>
+          <li>css</li>
+          <li>JavScript</li>
+          <li>html</li>
+        </ul>
+        <div class="errorButton , flex">
           <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
@@ -86,7 +102,7 @@
           <li>JavScript</li>
           <li>html</li>
         </ul>
-        <div class="errorButton">
+        <div class="errorButton , flex">
           <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
@@ -102,7 +118,7 @@
           <li>JavScript</li>
           <li>html</li>
         </ul>
-        <div class="errorButton">
+        <div class="errorButton , flex">
           <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
@@ -118,7 +134,7 @@
           <li>JavScript</li>
           <li>html</li>
         </ul>
-        <div class="errorButton">
+        <div class="errorButton , flex">
           <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
@@ -134,23 +150,7 @@
           <li>JavScript</li>
           <li>html</li>
         </ul>
-        <div class="errorButton">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse"></small>
-        </div>
-      </li>
-      <li class="nested_flexbox">
-        <div class="items_space">
-
-        </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="errorButton">
+        <div class="errorButton , flex">
           <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
@@ -215,7 +215,7 @@
         <input type="email" id="email" name="user-email" placeholder="Email address"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
         <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-        <div class="errorButton">
+        <div class="errorButton , flex">
           <button class="form_button" type="submit">Get in touch</button>
           <small class="collapse"></small>
         </div>
