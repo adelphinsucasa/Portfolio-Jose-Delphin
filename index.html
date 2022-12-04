@@ -20,10 +20,10 @@
 <body>
 
   <div class="background_desktop">
-    <header class="navigation">
-      <a href="index.html" class="logo"> Welcome </a>
+    <header class="navigation , flex">
+      <a href="index.html" class="logo , flex"> Welcome </a>
       <nav>
-        <ul class="nav_collapse" id="collapse">
+        <ul class="nav_collapse , flex" id="collapse">
           <li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>
           <li><a href="#recent-works">Portfolio</a></li>
           <li><a href="#about-me">About</a></li>
@@ -63,8 +63,7 @@
         <div class="items_space">
 
         </div>
-        <h3>Multi-Post Stories</h3>
-        <h3>Gain + Glory</h3>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
         <ul>
           <li>Ruby on rails</li>
           <li>css</li>
@@ -72,7 +71,7 @@
           <li>html</li>
         </ul>
         <div class="errorButton">
-          <button class="form_button" type="submit">See project</button>
+          <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
       </li>
@@ -80,8 +79,7 @@
         <div class="items_space">
 
         </div>
-        <h3>Multi-Post Stories</h3>
-        <h3>Gain + Glory</h3>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
         <ul>
           <li>Ruby on rails</li>
           <li>css</li>
@@ -89,7 +87,7 @@
           <li>html</li>
         </ul>
         <div class="errorButton">
-          <button class="form_button" type="submit">See project</button>
+          <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
       </li>
@@ -97,8 +95,7 @@
         <div class="items_space">
 
         </div>
-        <h3>Multi-Post Stories</h3>
-        <h3>Gain + Glory</h3>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
         <ul>
           <li>Ruby on rails</li>
           <li>css</li>
@@ -106,7 +103,7 @@
           <li>html</li>
         </ul>
         <div class="errorButton">
-          <button class="form_button" type="submit">See project</button>
+          <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
       </li>
@@ -114,8 +111,7 @@
         <div class="items_space">
 
         </div>
-        <h3>Multi-Post Stories</h3>
-        <h3>Gain + Glory</h3>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
         <ul>
           <li>Ruby on rails</li>
           <li>css</li>
@@ -123,7 +119,7 @@
           <li>html</li>
         </ul>
         <div class="errorButton">
-          <button class="form_button" type="submit">See project</button>
+          <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
       </li>
@@ -131,8 +127,7 @@
         <div class="items_space">
 
         </div>
-        <h3>Multi-Post Stories</h3>
-        <h3>Gain + Glory</h3>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
         <ul>
           <li>Ruby on rails</li>
           <li>css</li>
@@ -140,7 +135,7 @@
           <li>html</li>
         </ul>
         <div class="errorButton">
-          <button class="form_button" type="submit">See project</button>
+          <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
       </li>
@@ -148,8 +143,7 @@
         <div class="items_space">
 
         </div>
-        <h3>Multi-Post Stories</h3>
-        <h3>Gain + Glory</h3>
+        <h3>Multi-Post Stories<br>Gain + Glory</h3>
         <ul>
           <li>Ruby on rails</li>
           <li>css</li>
@@ -157,7 +151,7 @@
           <li>html</li>
         </ul>
         <div class="errorButton">
-          <button class="form_button" type="submit">See project</button>
+          <button class="form_button" type="button">See project</button>
           <small class="collapse"></small>
         </div>
       </li>
@@ -165,15 +159,15 @@
     </ul>
   </section>
 
-  <header class="background_aboutme">
+  <section class="background_aboutme">
     <h2 id="about-me" class="aboutme_head">About me</h2>
-    <section class="grid_container_aboutme">
-      <h3 class="aboutme_text">I can help you build a product ,feature or website. Look through some of my
+    <div class="grid_container_aboutme">
+      <p class="aboutme_text">I can help you build a product ,feature or website. Look through some of my
         work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-        contact me.</h3>
+        contact me.</p>
       <a class="web_button center_button" href="#">Get My Resume</a>
-    </section>
-  </header>
+      </div>
+  </div>
   <div>
     <ul class="flex_container_secondary">
       <li class="nested_flexbox">
@@ -209,9 +203,9 @@
         </ul>
       </li>
     </ul>
-  </div>
+  </section>
+  
   <section>
-    
     <footer>
       <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
         to chat please get in touch.</h3>
@@ -239,7 +233,6 @@
     </footer>
   </section>
   <section class="collapse" id="popup_container"></section>
-  <script src="./index.js"></script>
 </body>
 
 </html>

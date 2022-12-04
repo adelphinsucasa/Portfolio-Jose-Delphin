@@ -6,8 +6,11 @@ body {
   scroll-behavior: smooth;
 }
 
-.navigation {
+.flex {
   display: flex;
+}
+
+.navigation {
   padding-left: 24px;
   padding-right: 35px;
 }
@@ -18,7 +21,6 @@ nav ul a {
   font-size: 32px;
   line-height: 44px;
   color: #3a4a42;
-  display: flex;
   margin: 20px;
 }
 
@@ -28,7 +30,6 @@ small {
   background: #172b4d;
   border-radius: 0.5rem;
   padding: 0.75rem;
-  display: flex;
   width: 75%;
   text-align: center;
 }
@@ -52,13 +53,11 @@ small {
 }
 
 .errorButton {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 nav ul {
-  display: flex;
   flex-direction: column;
   list-style: none;
   height: 100vh;
@@ -82,7 +81,6 @@ nav ul {
   background-image: url(assets/images/background_img.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0;
@@ -120,7 +118,6 @@ nav ul {
 }
 
 .hero ul {
-  display: flex;
   width: 30%;
 }
 
@@ -163,7 +160,7 @@ nav ul {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  margin: 24px 0;
+  margin: 10px 0;
 }
 
 .works_head {
