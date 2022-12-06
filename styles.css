@@ -977,17 +977,4 @@ footer h4 {
     width: auto;
     box-sizing: border-box;
   }
-
-  .form_button:hover {
-    background: #36b37f;
-    box-shadow: 0 8px 12px rgba(17, 58, 41, 0.24);
-  }
-
-  .form_button:active {
-    background-color: #008552;
-  }
-
-  .form_button:focus {
-    background-color: #015535;
-  }
 }
