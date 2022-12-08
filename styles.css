@@ -961,7 +961,8 @@ footer h4 {
     letter-spacing: 0.03em;
   }
 
-  footer button:hover,button:focus {
+  footer button:hover,
+  footer button:focus {
     opacity: 0.9;
     outline: 0;
   }
