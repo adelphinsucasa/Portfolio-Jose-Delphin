@@ -337,6 +337,10 @@ a.web_button:active {
   padding-top: 20px;
 }
 
+footer {
+  margin-bottom: 200px;
+}
+
 .popup_footer img {
   padding-left: 0.75rem;
 }
@@ -423,11 +427,13 @@ footer button {
   display: flex;
   width: 100%;
   align-items: center;
+  align-content: center;
+  gap: 20px;
+  margin-left: 95px;
 }
 
 .footer_icon li {
   list-style: none;
-  flex: 1;
 }
 
 footer h4 {
@@ -596,7 +602,7 @@ footer h4 {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   #icon {
     display: none;
   }
@@ -890,18 +896,26 @@ footer h4 {
   footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    margin: 10 auto;
+    margin-bottom: 50px;
     background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact\ form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
     justify-content: center;
     background-repeat: no-repeat;
+    background-color: lightgray;
     background-position: left 75%, right 75%, 25% 60%;
+  }
+
+  .footer::before {
+    clear: both;
+    display: block;
+    height: 220px;
+    min-height: 220px;
   }
 
   footer form {
     margin-top: 58px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
