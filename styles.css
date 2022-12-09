@@ -8,6 +8,7 @@ body {
 
 .flex {
   display: flex;
+  justify-content: center;
 }
 
 .navigation {
@@ -57,8 +58,10 @@ small {
 
 .button_Container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 nav ul {
@@ -212,7 +215,6 @@ nav ul {
 }
 
 .works_container_secondary {
-  display: flex;
   flex: 1;
   gap: 100px;
   display: flex;
@@ -256,7 +258,7 @@ nav ul {
   align-items: center;
   width: 95%;
   padding: 20px;
-  gap:20px;
+  gap: 20px;
 }
 
 .web_button {
@@ -390,6 +392,14 @@ a.web_button:active {
   color: #172b4d;
 }
 
+form {
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+}
+
 .first_footer_section input {
   margin: 5%;
   background: #fff;
@@ -403,15 +413,6 @@ a.web_button:active {
   line-height: 24px;
   color: #6b778c;
   width: 100%;
-}
-
-form {
-  margin-top: 58px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  align-content: center;
 }
 
 .first_footer_section textarea {
@@ -436,7 +437,8 @@ form {
 .footer_icon {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5;
+  justify-content: space-evenly;
 }
 
 .footer_icon li {
@@ -609,6 +611,24 @@ form {
 }
 
 @media screen and (min-width: 768px) {
+  li img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    transition: all 0.2s ease;
+  }
+
+  .works_head,
+  .hero_head:hover,
+  li a {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    transition: all 0.2s ease;
+  }
+
   #icon {
     display: none;
   }
@@ -655,6 +675,10 @@ form {
     transition-property: font-size, color;
     transition-duration: 1s, 1s;
     transition-delay: 0s, 0s;
+  }
+
+  .popup_header img {
+    padding-left: 0.75rem;
   }
 
   .toolbar {
@@ -713,6 +737,13 @@ form {
     display: flex;
   }
 
+  li img:hover,
+  .works_head:hover,
+  .hero_head:hover,
+  li a:hover {
+    transform: scale(1.1);
+  }
+
   .desktop_nav a:hover {
     font-weight: bold;
     font-size: 20px;
@@ -742,6 +773,13 @@ form {
 
   .flex_container_primary li {
     margin: 8px;
+  }
+
+  .footer_icon {
+    display: flex;
+    align-items: center;
+    gap: 5;
+    justify-content: center;
   }
 
   .footer_icon li {
@@ -777,10 +815,6 @@ form {
     flex-wrap: wrap;
   }
 
-  .works_container {
-    
-  }
-
   .aboutme_text {
     width: 50%;
     display: flex;
@@ -814,14 +848,9 @@ form {
     margin: 0 auto;
     gap: 20px;
   }
+
   .nested_flexbox {
     height: 382px;
-  }
-
-  .first_footer_section {
-    display: flex;
-    flex-direction: row;
-    flex: 1 100px;
   }
 
   footer {
@@ -834,13 +863,14 @@ form {
   }
 
   .contact_head {
-    width: 60%;
+    width: 40%;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
     line-height: 52px;
     text-align: center;
     box-sizing: border-box;
+    margin-left: 6%;
   }
 
   .popup {
@@ -913,29 +943,28 @@ form {
     display: none;
   }
 
-  .popup_header img {
-    padding-left: 0.75rem;
-  }
-
   .first_footer_section {
     display: flex;
     flex-direction: row;
     flex: 1 1 100px;
     align-items: center;
-    width: 100%;
+    width: 95%;
     background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact\ form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
-    justify-content: center;
     background-repeat: no-repeat;
     background-position: left 75%, right 75%, 25% 60%;
-    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
   }
 
   form {
     margin-top: -10px;
     display: flex;
     flex-direction: column;
-    width: 60%;
-    padding: 20px;
+    width: 40%;
+    margin-right: 10%;
   }
 
   .first_footer_section input {
@@ -948,7 +977,7 @@ form {
     font-size: 15px;
     line-height: 24px;
     color: #6b778c;
-    width: 95%;
+    width: 100%;
   }
 
   .first_footer_section textarea {
@@ -962,27 +991,26 @@ form {
     color: #091e42;
     width: 100%;
     box-sizing: border-box;
-    height: 100px;
+    height: 100%;
   }
 
   .button_Container {
-    background-color: green;
+    display: flex;
     flex-direction: row;
-    margin: 0px;
-    width: 100%;
-    align-items: center;
+    justify-content: center;
   }
 
   .first_footer_section button {
     background: #36b37f;
     border-radius: 4px;
-    width: max-content;
+    width: 70%;
     border: 1px solid #fff;
     color: #fff;
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
+    margin-left: -70px;
   }
 
   .first_footer_section button:hover,
