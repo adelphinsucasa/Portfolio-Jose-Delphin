@@ -21,10 +21,10 @@
 <body>
 
   <div class="background_desktop">
-    <header class="navigation , flex">
+    <header class="navigation flex">
       <a href="index.html" class="logo , flex"> Welcome </a>
       <nav>
-        <ul class="nav_collapse , flex" id="collapse">
+        <ul class="nav_collapse flex" id="collapse">
           <li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>
           <li><a href="#recent-works">Portfolio</a></li>
           <li><a href="#about-me">About</a></li>
@@ -35,7 +35,7 @@
         </label>
       </nav>
     </header>
-    <section class="hero , flex">
+    <section class="hero flex">
       <h1 class="hero_head">Hey there. I'm Jose Delphin.<br> <span>I'm a software developer</span></h1>
       <p class="hero_content">I can help you build a product, feature or website. Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -55,13 +55,13 @@
 
 
   <!-- main grid container -->
-  <section id="project_section" class="grid_container">
+  <section id="project_section" class="works_container">
     <div>
       <h2 id="recent-works" class="works_head">My Recent Works </h2>
       <img class="center" src="assets/images/Indicator.png" alt="Design line">
   
     </div>
-    <ul class="flex_container_secondary">
+    <ul class="works_container_secondary">
       <li class="nested_flexbox">
         <div class="items_space">
 
@@ -169,10 +169,8 @@
         work and experience! If you like what you see and have a project you need coded, don’t hesitate to
         contact me.</p>
       <a class="web_button center_button" href="#">Get My Resume</a>
-      </div>
-  </div>
-  <div>
-    <ul class="flex_container_secondary">
+    </div>
+    <ul class="flex_container_secondary flex">
       <li class="nested_flexbox">
         <h3>Languages</h3>
         <img class="center" src="assets/images/icon-languages.svg" alt="Languages icon">
@@ -208,20 +206,23 @@
     </ul>
   </section>
   
+  <section class="first_footer_section">
+      <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
+        to chat please get in touch.</h3>
+      <form novalidate action="https://formspree.io/f/meqnjpgd" method="post">
+  
+        <input type="text" id="full-name" maxlength="30" name="full_name" placeholder="Full name" required>
+        <input type="email" id="email" name="user-email" placeholder="Email address"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+        <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+        <div class="button_Container flex">
+          <button class="form_button" type="submit">Get in touch</button>
+          <small class="collapse"></small>
+        </div>
+      </form>
+      <h4>dalejandro.005@gmail.com</h4>
+    </section>
   <footer>
-    <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
-      to chat please get in touch.</h3>
-    <form novalidate action="https://formspree.io/f/meqnjpgd" method="post">
-
-      <input type="text" id="full-name" maxlength="30" name="full_name" placeholder="Full name" required>
-      <input type="email" id="email" name="user-email" placeholder="Email address"
-        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
-      <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-      <div class="button_Container flex">
-        <button class="form_button" type="submit">Get in touch</button>
-        <small class="collapse"></small>
-      </div>
-    </form>
     <ul class="footer_icon">
       <li><a href="https://twitter.com/JoseADelphin"><img src="assets/images/social_media/twitter.svg"
             alt="Twitter icon"></a></li>
@@ -234,8 +235,8 @@
       <li><a href="https://angelist.com/"><img src="assets/images/social_media/angelist.svg" alt="Angelist icon"></a>
       </li>
     </ul>
-    <h4>dalejandro.005@gmail.com</h4>
   </footer>
 </body>
+
 
 </html>

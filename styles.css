@@ -188,12 +188,12 @@ nav ul {
   margin-top: 40px;
 }
 
-.grid_container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto auto auto;
+.works_container {
+  display: flex;
+  flex-direction: column;
   padding-top: 75px;
-  justify-content: center;
+  align-items: center;
+  width: 95%;
 }
 
 .flex_container_primary {
@@ -211,12 +211,14 @@ nav ul {
   height: 252px;
 }
 
-.flex_container_secondary {
-  padding: 50px;
+.works_container_secondary {
+  display: flex;
+  flex: 1;
   gap: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .flex_container_primary h3 {
@@ -247,6 +249,14 @@ nav ul {
   line-height: 16px;
   color: #3a4a42;
   background: #ebf0ee;
+}
+
+.flex_container_secondary {
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  padding: 20px;
+  gap:20px;
 }
 
 .web_button {
@@ -337,7 +347,7 @@ a.web_button:active {
   padding-top: 20px;
 }
 
-footer {
+.first_footer_section {
   margin-bottom: 200px;
 }
 
@@ -380,7 +390,7 @@ footer {
   color: #172b4d;
 }
 
-footer input {
+.first_footer_section input {
   margin: 5%;
   background: #fff;
   border: 1px solid #d0d9d4;
@@ -395,7 +405,7 @@ footer input {
   width: 100%;
 }
 
-footer form {
+form {
   margin-top: 58px;
   display: flex;
   flex-direction: column;
@@ -404,7 +414,7 @@ footer form {
   align-content: center;
 }
 
-footer textarea {
+.first_footer_section textarea {
   padding: 12px;
   border-radius: 4px;
   border: 1px solid #60c095;
@@ -419,24 +429,21 @@ footer textarea {
   box-sizing: border-box;
 }
 
-footer button {
+.first_footer_section button {
   border: 1px solid #fff;
 }
 
 .footer_icon {
   display: flex;
-  width: 100%;
   align-items: center;
-  align-content: center;
-  gap: 20px;
-  margin-left: 95px;
+  gap: 15px;
 }
 
 .footer_icon li {
   list-style: none;
 }
 
-footer h4 {
+.first_footer_section h4 {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -517,7 +524,6 @@ footer h4 {
   padding: 12px;
   text-align: center;
   font-size: 17px;
-  margin: 20px;
 }
 
 .form_button:hover,
@@ -602,7 +608,7 @@ footer h4 {
   display: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   #icon {
     display: none;
   }
@@ -740,9 +746,9 @@ footer h4 {
 
   .footer_icon li {
     list-style: none;
-    flex: 1;
-    gap: 10px;
     align-items: center;
+    align-content: center;
+    padding: 20px;
   }
 
   .ul_desktop li {
@@ -771,9 +777,8 @@ footer h4 {
     flex-wrap: wrap;
   }
 
-  .grid_container {
-    grid-template-columns: auto auto auto;
-    grid-gap: 32px 24px;
+  .works_container {
+    
   }
 
   .aboutme_text {
@@ -791,26 +796,45 @@ footer h4 {
     padding: 0;
   }
 
-  .flex_container_secondary {
-    flex-direction: row;
+  .works_container_secondary {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
     justify-content: center;
-    display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
+  .flex_container_secondary {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    gap: 20px;
+  }
   .nested_flexbox {
     height: 382px;
   }
 
-  .footer_icon {
+  .first_footer_section {
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    flex: 1 100px;
+  }
+
+  footer {
+    flex-direction: row;
     align-items: center;
+    align-content: center;
+    width: 95%;
+    padding: 20px;
+    gap: 20px;
   }
 
   .contact_head {
-    width: 30%;
+    width: 60%;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
@@ -893,56 +917,44 @@ footer h4 {
     padding-left: 0.75rem;
   }
 
-  footer {
+  .first_footer_section {
     display: flex;
     flex-direction: row;
+    flex: 1 1 100px;
     align-items: center;
     width: 100%;
-    margin-bottom: 50px;
     background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact\ form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
     justify-content: center;
     background-repeat: no-repeat;
-    background-color: lightgray;
     background-position: left 75%, right 75%, 25% 60%;
+    margin-bottom: 0px;
   }
 
-  .footer::before {
-    clear: both;
-    display: block;
-    height: 220px;
-    min-height: 220px;
-  }
-
-  footer form {
-    margin-top: 58px;
-    margin-bottom: 50px;
+  form {
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
+    width: 60%;
+    padding: 20px;
   }
 
-  footer input {
-    margin: 5%;
+  .first_footer_section input {
     background: #fff;
     border: 1px solid #d0d9d4;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 15px 16px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
     color: #6b778c;
-    width: 100%;
+    width: 95%;
   }
 
-  footer textarea {
-    padding: 12px;
+  .first_footer_section textarea {
     border-radius: 4px;
     border: 1px solid #60c095;
     background: #fff;
-    margin: 5%;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -954,18 +966,16 @@ footer h4 {
   }
 
   .button_Container {
+    background-color: green;
     flex-direction: row;
-    box-sizing: border-box;
-    width: 75%;
-    margin: 2%;
-    justify-content: flex-start;
+    margin: 0px;
+    width: 100%;
+    align-items: center;
   }
 
-  footer button {
+  .first_footer_section button {
     background: #36b37f;
     border-radius: 4px;
-    padding: 12px;
-    margin: 2%;
     width: max-content;
     border: 1px solid #fff;
     color: #fff;
@@ -975,13 +985,13 @@ footer h4 {
     letter-spacing: 0.03em;
   }
 
-  footer button:hover,
-  footer button:focus {
+  .first_footer_section button:hover,
+  .first_footer_section button:focus {
     opacity: 0.9;
     outline: 0;
   }
 
-  footer h4 {
+  .first_footer_section h4 {
     display: none;
   }
 
