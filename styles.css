@@ -728,8 +728,8 @@ form {
   li img:hover,
   nav a:hover,
   .hero_head:hover {
-    transform: scale(1.5);
-    transition-duration: 0.8s;
+    transform: scale(1.8);
+    transition-duration: 0.5s;
   }
 
   .desktop_nav a:hover {
