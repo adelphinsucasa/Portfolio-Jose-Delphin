@@ -611,30 +611,18 @@ form {
 }
 
 @media screen and (min-width: 768px) {
-  li img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 100%;
-    transition: all 0.2s ease;
-  }
-
-  .works_head,
-  .hero_head:hover,
-  li a {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 100%;
-    transition: all 0.2s ease;
-  }
-
   #icon {
     display: none;
   }
 
   #logo {
     display: none;
+  }
+
+  li img,
+  nav a,
+  .hero_head {
+    transition: all 0.2s ease;
   }
 
   .nav_collapse {
@@ -675,10 +663,6 @@ form {
     transition-property: font-size, color;
     transition-duration: 1s, 1s;
     transition-delay: 0s, 0s;
-  }
-
-  .popup_header img {
-    padding-left: 0.75rem;
   }
 
   .toolbar {
@@ -737,11 +721,15 @@ form {
     display: flex;
   }
 
+  .popup_header img {
+    padding-left: 0.75rem;
+  }
+
   li img:hover,
-  .works_head:hover,
-  .hero_head:hover,
-  li a:hover {
-    transform: scale(1.1);
+  nav a:hover,
+  .hero_head:hover {
+    transform: scale(1.5);
+    transition-duration: 0.8s;
   }
 
   .desktop_nav a:hover {
