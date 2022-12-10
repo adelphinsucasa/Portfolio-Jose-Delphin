@@ -86,7 +86,7 @@ nav ul {
 }
 
 .hero {
-  background-image: url(assets/images/background_img.svg);
+  /* background-image: url(assets/images/background_img.svg); */
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -309,9 +309,10 @@ a.web_button:active {
   justify-content: center;
 }
 
-.background_aboutme {
-  background-image: url(assets/images/aboutme1.svg), url(assets/images/aboutme2.svg);
-  background-position: left bottom, right top;
+.first_about_container {
+  background-size: 80px;
+  background-image: url(assets/images/desktop/aboutme1.png), url(assets/images/desktop/aboutme2.png);
+  background-position: right top, left bottom;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -350,7 +351,11 @@ a.web_button:active {
 }
 
 .first_footer_section {
-  margin-bottom: 200px;
+  background-image: url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  height: 900px;
+  background-position: right 700px;
 }
 
 .popup_footer img {
@@ -396,7 +401,7 @@ form {
   margin-top: 58px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
   align-content: center;
 }
 
@@ -434,11 +439,20 @@ form {
   border: 1px solid #fff;
 }
 
+footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 .footer_icon {
   display: flex;
   align-items: center;
-  gap: 5;
-  justify-content: space-evenly;
+  gap: 25px;
+  justify-content: center;
+  width: 95%;
+  margin-left: 0;
 }
 
 .footer_icon li {
@@ -766,7 +780,7 @@ form {
   .footer_icon {
     display: flex;
     align-items: center;
-    gap: 5;
+    gap: 25px;
     justify-content: center;
   }
 
@@ -774,7 +788,7 @@ form {
     list-style: none;
     align-items: center;
     align-content: center;
-    padding: 20px;
+    padding: 5px;
   }
 
   .ul_desktop li {
@@ -809,9 +823,8 @@ form {
     justify-self: center;
   }
 
-  .background_aboutme {
-    background-image: url(./assets/images/desktop/illustration-about-me-2-desktop.svg), url(./assets/images/desktop/illustration-about\ me-1-desktop.svg);
-    background-repeat: no-repeat;
+  .first_about_container {
+    background-size: 150px;
   }
 
   .grid_container_aboutme {
@@ -851,14 +864,13 @@ form {
   }
 
   .contact_head {
-    width: 40%;
+    width: 50%;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
     line-height: 52px;
     text-align: center;
     box-sizing: border-box;
-    margin-left: 6%;
   }
 
   .popup {
@@ -937,22 +949,30 @@ form {
     flex: 1 1 100px;
     align-items: center;
     width: 95%;
-    background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact\ form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: left 75%, right 75%, 25% 60%;
-    margin-left: 20px;
-    margin-bottom: 0;
     justify-content: center;
     flex-wrap: nowrap;
     align-content: center;
+    background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    height: 650px;
+    background-position: left 450px, right 400px, 200px 450px;
   }
 
   form {
-    margin-top: -10px;
+    /* margin-top: -10px;
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-right: 10%;
+    margin-right: 10%; */
+
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .first_footer_section input {
@@ -986,19 +1006,21 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
   }
 
   .first_footer_section button {
     background: #36b37f;
     border-radius: 4px;
-    width: 70%;
     border: 1px solid #fff;
     color: #fff;
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin-left: -70px;
+    width: 100%;
   }
 
   .first_footer_section button:hover,
@@ -1007,7 +1029,7 @@ form {
     outline: 0;
   }
 
-  .first_footer_section h4 {
+  footer h4 {
     display: none;
   }
 
