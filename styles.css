@@ -780,7 +780,7 @@ footer {
   .footer_icon {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     justify-content: center;
   }
 
@@ -832,9 +832,10 @@ footer {
   }
 
   .works_container_secondary {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: row;
+    /*grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;*/
     justify-content: center;
     align-items: center;
     gap: 10px;
