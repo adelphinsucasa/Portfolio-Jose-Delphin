@@ -208,23 +208,20 @@
     </ul>
   </section>
   
-  <section class="first_footer_section">
+  <footer class="first_footer_section flex">
       <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
         to chat please get in touch.</h3>
-      <form novalidate action="https://formspree.io/f/meqnjpgd" method="post">
+      <form action="https://formspree.io/f/meqnjpgd" method="post">
   
         <input type="text" id="full-name" maxlength="30" name="full_name" placeholder="Full name" required>
         <input type="email" id="email" name="user-email" placeholder="Email address"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
-        <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-        <div class="button_Container flex">
+        <textarea rows="4" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+        <div class="button_Container">
           <button class="form_button" type="submit">Get in touch</button>
         </div>
       </form>
       
-  </section>
-  
-  <footer class="flex">
     <ul class="footer_icon">
       <li><a href="https://twitter.com/JoseADelphin"><img src="assets/images/social_media/twitter.svg"
             alt="Twitter icon"></a></li>
