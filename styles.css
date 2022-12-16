@@ -643,7 +643,7 @@ footer {
   li img,
   nav a,
   .hero_head {
-    transition: all 0.4s ease;
+    transition: all 0.9s ease;
   }
 
   .nav_collapse {
@@ -749,8 +749,8 @@ footer {
   li img:hover,
   nav a:hover,
   .hero_head:hover {
-    transform: scale(1.8);
-    transition-duration: 0.5s;
+    transform: scale(1.6);
+    transition-duration: 0.9s;
   }
 
   .desktop_nav a:hover {
