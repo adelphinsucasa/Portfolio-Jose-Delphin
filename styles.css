@@ -1,5 +1,6 @@
 body {
   font-family: 'Inter', Tahoma, sans-serif;
+  width: 100%;
 }
 
 * {
@@ -61,6 +62,7 @@ small {
   flex-direction: row;
   align-items: center;
   align-content: center;
+  width: 100%;
   justify-content: center;
 }
 
@@ -354,8 +356,9 @@ a.web_button:active {
   background-image: url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg);
   background-repeat: no-repeat;
   background-size: 60px;
-  height: 900px;
-  background-position: right 700px;
+  background-position: 330px 710px;
+  width: 100%;
+  margin-bottom: 260px;
 }
 
 .popup_footer img {
@@ -401,12 +404,12 @@ form {
   margin-top: 58px;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 100%;
   align-content: center;
+  gap: 24px;
 }
 
 .first_footer_section input {
-  margin: 5%;
   background: #fff;
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
@@ -417,7 +420,9 @@ form {
   font-size: 15px;
   line-height: 24px;
   color: #6b778c;
-  width: 100%;
+  width: 90%;
+  height: 48px;
+  margin-left: 24px;
 }
 
 .first_footer_section textarea {
@@ -425,14 +430,15 @@ form {
   border-radius: 4px;
   border: 1px solid #60c095;
   background: #fff;
-  margin: 5%;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   color: #091e42;
-  width: 100%;
+  width: 90%;
   box-sizing: border-box;
+  height: 114px;
+  margin-left: 24px;
 }
 
 .first_footer_section button {
@@ -449,10 +455,11 @@ footer {
 .footer_icon {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
+  width: 100%;
   justify-content: center;
-  width: 95%;
-  margin-left: 0;
+  padding: 0;
+  margin-top: 40px;
 }
 
 .footer_icon li {
@@ -780,7 +787,7 @@ footer {
   .footer_icon {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     justify-content: center;
   }
 
@@ -832,9 +839,11 @@ footer {
   }
 
   .works_container_secondary {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: row;
+
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto; */
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -955,7 +964,6 @@ footer {
     background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
     background-size: 120px;
-    height: 650px;
     background-position: left 450px, right 400px, 200px 450px;
   }
 
@@ -1003,10 +1011,13 @@ footer {
   }
 
   .button_Container {
+    margin: 0;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
     align-items: center;
     align-content: center;
   }
