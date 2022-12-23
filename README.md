@@ -33,6 +33,7 @@
 
 
 # 📖 Portfolio-Setup-and-mobile-first <a name="about-project"></a>
+
 This is the Jose Delphin Portfolio, that allows you understand what are my skills as a developer.
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
