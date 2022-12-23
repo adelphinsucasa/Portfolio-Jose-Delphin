@@ -32,9 +32,8 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio-Setup-and-mobile-first] <a name="about-project"></a>
-
-**[Portfolio-Setup-and-mobile-first]** This is the Jose Delphin Portfolio, that allows you understand what are my skills as a developer.
+# 📖 Portfolio-Setup-and-mobile-first <a name="about-project"></a>
+This is the Jose Delphin Portfolio, that allows you understand what are my skills as a developer.
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -115,6 +114,11 @@ If you like this project you can contact the author througt the above meddia lin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⭐️ Loom walkthrough <a name="Loom_walkthrough"></a>
+
+- (https://www.loom.com/share/b7dc4d45224b49ac85e36275880594db)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
