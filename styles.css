@@ -217,11 +217,12 @@ nav ul {
 }
 
 .works_container_secondary {
-  flex: 1;
   gap: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  flex: 33.33%;
   width: 100%;
 }
 
@@ -549,6 +550,18 @@ footer {
   font-size: 17px;
 }
 
+.form_foot_button {
+  margin-left: 24px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-size: 17px;
+}
+
 .form_button:hover,
 .form_button:focus {
   background: #36b37f;
@@ -643,7 +656,7 @@ footer {
   li img,
   nav a,
   .hero_head {
-    transition: all 0.4s ease;
+    transition: all 0.9s ease;
   }
 
   .nav_collapse {
@@ -749,8 +762,8 @@ footer {
   li img:hover,
   nav a:hover,
   .hero_head:hover {
-    transform: scale(1.8);
-    transition-duration: 0.5s;
+    transform: scale(1.6);
+    transition-duration: 0.9s;
   }
 
   .desktop_nav a:hover {
@@ -864,7 +877,7 @@ footer {
   }
 
   footer {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     width: 95%;
@@ -959,7 +972,7 @@ footer {
     align-items: center;
     width: 95%;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg), url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
@@ -1022,6 +1035,17 @@ footer {
     align-content: center;
   }
 
+  .button_foot_Container {
+    margin-left: 24px;
+    line-height: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
   .first_footer_section button {
     background: #36b37f;
     border-radius: 4px;
@@ -1038,6 +1062,10 @@ footer {
   .first_footer_section button:focus {
     opacity: 0.9;
     outline: 0;
+  }
+
+  .form_foot_button {
+    margin: 0;
   }
 
   footer h4 {

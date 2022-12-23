@@ -49,6 +49,13 @@ This is the Jose Delphin Portfolio, that allows you understand what are my skill
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- (https://adelphinsucasa.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -108,6 +115,11 @@ If you like this project you can contact the author througt the above meddia lin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⭐️ Loom walkthrough <a name="Loom_walkthrough"></a>
+
+- (https://www.loom.com/share/b7dc4d45224b49ac85e36275880594db)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
