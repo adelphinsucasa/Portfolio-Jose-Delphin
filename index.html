@@ -14,7 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jose Delphin Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
   <link rel="stylesheet" href="./styles.css">
+
 </head>
 
 
@@ -25,16 +33,24 @@
       <a href="index.html" class="logo , flex"> Welcome </a>
       <nav>
         <ul class="nav_collapse flex" id="collapse">
-          <li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>
+          <!--<li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>-->
           <li><a href="#recent-works">Portfolio</a></li>
           <li><a href="#about-me">About</a></li>
           <li><a href="#contact-info">Contact</a></li>
         </ul>
         <label id="icon">
-          <img src="./assets/images/toolbar.png" alt="Toolbar Icon">
+          <img id="hamburguer-icon" src="./assets/images/toolbar.png" alt="Toolbar Icon">
         </label>
       </nav>
     </header>
+    <div class="hamburguer invisible">
+      <button id="btn-close" type="button" class="btn-close" aria-label="Close"></button>
+      <ul>
+        <li><a href="#project_section"><h3>Portfolio</h3></a></li>
+        <li><a href="#background_aboutme"><h3>About</h3></a></li>
+        <li><a href="#contact-section"><h3>Contact</h3></a></li>
+      </ul>
+    </div>
     <section class="hero flex">
       <h1 class="hero_head">Hey there. I'm Jose Delphin.<br> <span>I'm a software developer</span></h1>
       <p class="hero_content">I can help you build a product, feature or website. Look through some of my work and
@@ -162,7 +178,7 @@
     </ul>
   </section>
 
-  <section class="background_aboutme">
+  <section id="background_aboutme" class="background_aboutme">
     <div class="first_about_container">
       <h2 id="about-me" class="aboutme_head">About me</h2>
       <div class="grid_container_aboutme">
@@ -208,7 +224,7 @@
     </ul>
   </section>
   
-  <footer class="first_footer_section flex">
+  <footer id="contact-section" class="first_footer_section flex">
       <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
         to chat please get in touch.</h3>
       <form action="https://formspree.io/f/meqnjpgd" method="post">
@@ -236,5 +252,6 @@
     </ul>
     <h4>dalejandro.005@gmail.com</h4>
   </footer>
+  <script src="hamburguer.js"></script>
 </body>
 </html>
