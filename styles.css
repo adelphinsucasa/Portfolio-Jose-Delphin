@@ -518,7 +518,7 @@ form {
   margin-left: 24px;
 }
 
-.first_footer_section button {
+.first_footer_section .form_foot_button {
   border: 1px solid #fff;
 }
 
