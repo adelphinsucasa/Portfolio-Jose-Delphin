@@ -68,7 +68,7 @@ small {
   width: 100%;
   background-color: white;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  visibility: hidden;
+  margin-left: -100%;
 }
 
 .hamburguer ul {
@@ -96,6 +96,33 @@ small {
   float: right;
   margin-top: 18px;
   margin-right: 18px;
+}
+
+.run {
+  animation: run ease 0.5s;
+  animation-fill-mode: forwards;
+}
+.run-out {
+  animation: run-out ease 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes run {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes run-out {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: -100%;
+  }
 }
 
 .collapse {
