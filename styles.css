@@ -518,7 +518,16 @@ form {
   margin-left: 24px;
 }
 
-.first_footer_section .form_foot_button {
+.form_foot_button {
+  margin-left: 24px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-size: 17px;
   border: 1px solid #fff;
 }
 
@@ -616,18 +625,6 @@ footer {
 }
 
 .form_button {
-  background: #36b37f;
-  border-radius: 4px;
-  border: none;
-  text-decoration: none;
-  color: #fff;
-  padding: 12px;
-  text-align: center;
-  font-size: 17px;
-}
-
-.form_foot_button {
-  margin-left: 24px;
   background: #36b37f;
   border-radius: 4px;
   border: none;
