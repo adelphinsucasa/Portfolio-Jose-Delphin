@@ -63,21 +63,22 @@ small {
   margin-left: -100%;
 }
 
-.hamburguer {
+div.hamburguer {
   position: absolute;
+  height: 100vh;
   width: 100%;
   background-color: white;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   margin-left: -100%;
 }
 
-.hamburguer ul.hamburguer {
+div.hamburguer ul.hamburguer {
   list-style: none;
   padding-top: 100px;
   padding-bottom: 300px;
 }
 
-.hamburguer li.hamburguer {
+div.hamburguer li.hamburguer {
   font-family: "Inter", Tahoma, sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -87,12 +88,12 @@ small {
   margin-top: 30px;
 }
 
-.hamburguer li .hamburguer-link {
+div.hamburguer li .hamburguer-link {
   text-decoration: none;
   color: #3a4a42;
 }
 
-.hamburguer button {
+div.hamburguer button {
   float: right;
   margin-top: 18px;
   margin-right: 18px;
@@ -1049,10 +1050,10 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg),
+    background-image:
+      url(./assets/images/desktop/illustration-1-contact-form-desktop.svg),
       url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg),
-      url(./assets/images/desktop/illustration-2-contact-form-desktop.svg); /* stylelint-disable-line */
-
+      url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
     background-size: 120px;
     background-position: left 450px, right 400px, 200px 450px;
