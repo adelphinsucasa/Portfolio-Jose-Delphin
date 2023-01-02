@@ -71,14 +71,14 @@ small {
   margin-left: -100%;
 }
 
-.hamburguer ul {
+.hamburguer ul.hamburguer {
   list-style: none;
   padding-top: 100px;
   padding-bottom: 300px;
 }
 
-.hamburguer li {
-  font-family: Inter;
+.hamburguer li.hamburguer {
+  font-family: "Inter", Tahoma, sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
@@ -87,7 +87,7 @@ small {
   margin-top: 30px;
 }
 
-.hamburguer li a {
+.hamburguer li .hamburguer-link {
   text-decoration: none;
   color: #3a4a42;
 }
@@ -102,6 +102,7 @@ small {
   animation: run ease 0.5s;
   animation-fill-mode: forwards;
 }
+
 .run-out {
   animation: run-out ease 0.5s;
   animation-fill-mode: forwards;
@@ -111,6 +112,7 @@ small {
   0% {
     margin-left: -100%;
   }
+
   100% {
     margin-left: 0%;
   }
@@ -120,6 +122,7 @@ small {
   0% {
     margin-left: 0%;
   }
+
   100% {
     margin-left: -100%;
   }
@@ -1048,7 +1051,8 @@ footer {
     align-content: center;
     background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg),
       url(./assets/images/desktop/contact-form-illustratoin-3-desktop.svg),
-      url(./assets/images/desktop/illustration-2-contact-form-desktop.svg);
+      url(./assets/images/desktop/illustration-2-contact-form-desktop.svg); /* stylelint-disable-line */
+
     background-repeat: no-repeat;
     background-size: 120px;
     background-position: left 450px, right 400px, 200px 450px;
