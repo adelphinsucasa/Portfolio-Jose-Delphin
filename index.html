@@ -1,240 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEWPWDWMSM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEWPWDWMSM"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-VEWPWDWMSM");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jose Delphin Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
-    gtag('config', 'G-VEWPWDWMSM');
-  </script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jose Delphin Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
+  <body>
+    <div class="background_desktop">
+      <header class="navigation flex">
+        <a href="index.html" class="logo , flex"> Welcome </a>
+        <nav>
+          <ul class="nav_collapse flex" id="collapse">
+            <!--<li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>-->
+            <li><a href="#recent-works">Portfolio</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contact-info">Contact</a></li>
+          </ul>
+          <label id="icon">
+            <img id="hamburguer-icon" src="./assets/images/toolbar.png" alt="Toolbar Icon" />
+          </label>
+        </nav>
+      </header>
 
-<body>
-
-  <div class="background_desktop">
-    <header class="navigation flex">
-      <a href="index.html" class="logo , flex"> Welcome </a>
-      <nav>
-        <ul class="nav_collapse flex" id="collapse">
-          <li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>
-          <li><a href="#recent-works">Portfolio</a></li>
-          <li><a href="#about-me">About</a></li>
-          <li><a href="#contact-info">Contact</a></li>
+      <div class="hamburguer">
+        <button id="btn-close" type="button" class="btn-close" aria-label="Close"></button>
+        <ul class="hamburguer">
+          <li class="hamburguer">
+            <a class="hamburguer-link" href="#project_section"><h3>Portfolio</h3></a>
+          </li>
+          <li class="hamburguer">
+            <a class="hamburguer-link" href="#background_aboutme"><h3>About</h3></a>
+          </li>
+          <li class="hamburguer">
+            <a class="hamburguer-link" href="#contact-section"><h3>Contact</h3></a>
+          </li>
         </ul>
-        <label id="icon">
-          <img src="./assets/images/toolbar.png" alt="Toolbar Icon">
-        </label>
-      </nav>
-    </header>
-    <section class="hero flex">
-      <h1 class="hero_head">Hey there. I'm Jose Delphin.<br> <span>I'm a software developer</span></h1>
-      <p class="hero_content">I can help you build a product, feature or website. Look through some of my work and
-        experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-      </p>
-      <ul class="flex">
-        <li><a href="https://twitter.com/JoseADelphin"><img src="assets/images/social_media/twitter.svg"
-              alt="Twitter icon"></a></li>
-        <li><a href="https://www.linkedin.com/in/josedelphin/"><img
-              src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"></a></li>
-        <li><a href="https://github.com/adelphinsucasa"><img src="assets/images/social_media/github.svg" alt="Github icon"></a>
+      </div>
+
+      <section class="hero flex">
+        <h1 class="hero_head">
+          Hey there. I'm Jose Delphin.<br />
+          <span>I'm a software developer</span>
+        </h1>
+        <p class="hero_content">
+          I can help you build a product, feature or website. Look through some of my work and experience! If you like what you
+          see and have a project you need coded, don’t hesitate to contact me.
+        </p>
+        <ul class="flex">
+          <li>
+            <a href="https://twitter.com/JoseADelphin"><img src="assets/images/social_media/twitter.svg" alt="Twitter icon" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/josedelphin/"
+              ><img src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/adelphinsucasa"><img src="assets/images/social_media/github.svg" alt="Github icon" /></a>
+          </li>
+        </ul>
+        <a id="down_icon" href="#"><img src="assets/images/down.png" alt="Icon for moving" /></a>
+      </section>
+    </div>
+
+    <!-- main grid container -->
+    <section id="project_section" class="works_container">
+      <div>
+        <h2 id="recent-works" class="works_head">My Recent Works</h2>
+        <img class="center" src="assets/images/Indicator.png" alt="Design line" />
+      </div>
+      <ul class="works_container_secondary">
+        <li class="nested_flexbox">
+          <div class="items_space"></div>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <div class="button_Container flex">
+            <button class="form_button" type="button">See project</button>
+            <small class="collapse , flex"></small>
+          </div>
+        </li>
+        <li class="nested_flexbox">
+          <div class="items_space"></div>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <div class="button_Container , flex">
+            <button class="form_button" type="button">See project</button>
+            <small class="collapse"></small>
+          </div>
+        </li>
+        <li class="nested_flexbox">
+          <div class="items_space"></div>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <div class="button_Container flex">
+            <button class="form_button" type="button">See project</button>
+            <small class="collapse"></small>
+          </div>
+        </li>
+        <li class="nested_flexbox">
+          <div class="items_space"></div>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <div class="button_Container flex">
+            <button class="form_button" type="button">See project</button>
+            <small class="collapse"></small>
+          </div>
+        </li>
+        <li class="nested_flexbox">
+          <div class="items_space"></div>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <div class="button_Container flex">
+            <button class="form_button" type="button">See project</button>
+            <small class="collapse"></small>
+          </div>
+        </li>
+        <li class="nested_flexbox">
+          <div class="items_space"></div>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <div class="button_Container flex">
+            <button class="form_button" type="button">See project</button>
+            <small class="collapse"></small>
+          </div>
         </li>
       </ul>
-      <a id="down_icon" href="#"><img src="assets/images/down.png" alt="Icon for moving"></a>
     </section>
-  </div>
 
-
-
-  <!-- main grid container -->
-  <section id="project_section" class="works_container">
-    <div>
-      <h2 id="recent-works" class="works_head">My Recent Works </h2>
-      <img class="center" src="assets/images/Indicator.png" alt="Design line">
-  
-    </div>
-    <ul class="works_container_secondary">
-      <li class="nested_flexbox">
-        <div class="items_space">
-
+    <section id="background_aboutme" class="background_aboutme">
+      <div class="first_about_container">
+        <h2 id="about-me" class="aboutme_head">About me</h2>
+        <div class="grid_container_aboutme">
+          <p class="aboutme_text">
+            I can help you build a product ,feature or website. Look through some of my work and experience! If you like what you
+            see and have a project you need coded, don’t hesitate to contact me.
+          </p>
+          <a class="web_button center_button" href="#">Get My Resume</a>
         </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="button_Container flex">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse , flex"></small>
-        </div>
-      </li>
-      <li class="nested_flexbox">
-        <div class="items_space">
-
-        </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="button_Container , flex">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse"></small>
-        </div>
-      </li>
-      <li class="nested_flexbox">
-        <div class="items_space">
-
-        </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="button_Container flex">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse"></small>
-        </div>
-      </li>
-      <li class="nested_flexbox">
-        <div class="items_space">
-
-        </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="button_Container flex">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse"></small>
-        </div>
-      </li>
-      <li class="nested_flexbox">
-        <div class="items_space">
-
-        </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="button_Container flex">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse"></small>
-        </div>
-      </li>
-      <li class="nested_flexbox">
-        <div class="items_space">
-
-        </div>
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <div class="button_Container flex">
-          <button class="form_button" type="button">See project</button>
-          <small class="collapse"></small>
-        </div>
-      </li>
-      
-    </ul>
-  </section>
-
-  <section class="background_aboutme">
-    <div class="first_about_container">
-      <h2 id="about-me" class="aboutme_head">About me</h2>
-      <div class="grid_container_aboutme">
-        <p class="aboutme_text">I can help you build a product ,feature or website. Look through some of my
-          work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-          contact me.</p>
-        <a class="web_button center_button" href="#">Get My Resume</a>
       </div>
-    </div>
-    <ul class="flex_container_secondary flex">
-      <li class="nested_flexbox">
-        <h3>Languages</h3>
-        <img class="center" src="assets/images/icon-languages.svg" alt="Languages icon">
-        <ul>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-      </li>
-      <li class="nested_flexbox">
-        <h3>Frameworks</h3>
-        <img class="center ordering" src="assets/images/icon-frameworks.svg" alt="Frameworks icon">
-        <ul>
-          <li>Bootstrap</li>
-          <li>Ruby on rails</li>
-          <li>RSpec</li>
-          <li>Capybara</li>
-          <li>Selenium</li>
-        </ul>
-      </li>
-      <li class="nested_flexbox">
-        <h3>Skills</h3>
-        <img class="center" src="assets/images/icon-skills.svg" alt="Skills icon">
-        <ul>
-          <li>Codekit</li>
-          <li>GitHub</li>
-          <li>Codepen</li>
-          <li>Gitlab</li>
-          <li>Terminal</li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-  
-  <footer class="first_footer_section flex">
-      <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
-        to chat please get in touch.</h3>
+      <ul class="flex_container_secondary flex">
+        <li class="nested_flexbox">
+          <h3>Languages</h3>
+          <img class="center" src="assets/images/icon-languages.svg" alt="Languages icon" />
+          <ul>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </li>
+        <li class="nested_flexbox">
+          <h3>Frameworks</h3>
+          <img class="center ordering" src="assets/images/icon-frameworks.svg" alt="Frameworks icon" />
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Selenium</li>
+          </ul>
+        </li>
+        <li class="nested_flexbox">
+          <h3>Skills</h3>
+          <img class="center" src="assets/images/icon-skills.svg" alt="Skills icon" />
+          <ul>
+            <li>Codekit</li>
+            <li>GitHub</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <footer id="contact-section" class="first_footer_section flex">
+      <h3 id="contact-info" class="contact_head">
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+      </h3>
       <form action="https://formspree.io/f/meqnjpgd" method="post">
-  
-        <input type="text" id="full-name" maxlength="30" name="full_name" placeholder="Full name" required>
-        <input type="email" id="email" name="user-email" placeholder="Email address"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+        <input type="text" id="full-name" maxlength="30" name="full_name" placeholder="Full name" required />
+        <input
+          type="email"
+          id="email"
+          name="user-email"
+          placeholder="Email address"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          required
+        />
         <textarea rows="4" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
         <div class="button_foot_Container">
           <button class="form_foot_button" type="submit">Get in touch</button>
         </div>
       </form>
-      
-    <ul class="footer_icon">
-      <li><a href="https://twitter.com/JoseADelphin"><img src="assets/images/social_media/twitter.svg"
-            alt="Twitter icon"></a></li>
-      <li><a href="https://www.linkedin.com/in/josedelphin/"><img
-            src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"></a></li>
-      <li><a href="https://www.medium.com/"><img
-            src="assets/images/social_media/medium.svg" alt="Medium icon"></a></li>
-      <li><a href="https://github.com/adelphinsucasa"><img src="assets/images/social_media/github.svg" alt="Github icon"></a>
-      </li>
-      <li><a href="https://angelist.com/"><img src="assets/images/social_media/angelist.svg" alt="Angelist icon"></a>
-      </li>
-    </ul>
-    <h4>dalejandro.005@gmail.com</h4>
-  </footer>
-</body>
+
+      <ul class="footer_icon">
+        <li>
+          <a href="https://twitter.com/JoseADelphin"><img src="assets/images/social_media/twitter.svg" alt="Twitter icon" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/josedelphin/"
+            ><img src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.medium.com/"><img src="assets/images/social_media/medium.svg" alt="Medium icon" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/adelphinsucasa"><img src="assets/images/social_media/github.svg" alt="Github icon" /></a>
+        </li>
+        <li>
+          <a href="https://angelist.com/"><img src="assets/images/social_media/angelist.svg" alt="Angelist icon" /></a>
+        </li>
+      </ul>
+      <h4>dalejandro.005@gmail.com</h4>
+    </footer>
+    <script src="hamburguer.js"></script>
+  </body>
 </html>

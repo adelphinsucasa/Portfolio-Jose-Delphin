@@ -44,8 +44,10 @@ This is the Jose Delphin Portfolio, that allows you understand what are my skill
 
 - HTML
 - CSS
+- Javascript
 - Visual Studio Code 
 - Figma
+- Hamburguer Menu mobile version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
