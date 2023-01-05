@@ -119,13 +119,15 @@ sectionWorks.appendChild(cardRow);
 
 const btnSeeProjects = document.querySelectorAll('.btn_see_projects');
 const btnClose2 = document.querySelector('.close');
+const blur = document.querySelector('.blur');
+const bodyTag = document.querySelector('body');
+const ulModal = document.querySelector('ul.modal-project');
 
 function createModal(index) {
   const imgModal = document.querySelector('img.modal-project');
   const h3Modal = document.querySelector('h3.modal-project');
   const btn1Modal = document.querySelectorAll('.modal-btn1');
   const btn2Modal = document.querySelectorAll('.modal-btn2');
-  const ulModal = document.querySelector('ul.modal-project');
   const pModal = document.querySelector('p.modal-project');
 
   if (window.matchMedia('(max-width: 767px)').matches) {
@@ -156,18 +158,15 @@ function createModal(index) {
   if (window.matchMedia('(max-width: 767px)').matches) {
     ulModal.removeChild(ulModal.lastChild);
   } else {
-    btnClose2.textContent = 'xddddddddddddd';
+    btnClose2.textContent = 'X';
   }
 
   pModal.textContent = recentWorksObj[index].description;
 }
 
 function showModal() {
-  const blur = document.querySelector('.blur');
-  const body = document.querySelector('body');
-
-  body.style.overflow = 'hidden';
   blur.classList.remove('invisible');
+  bodyTag.style.overflow = 'hidden';
 }
 
 btnSeeProjects.forEach((btn, index) => {
@@ -175,4 +174,11 @@ btnSeeProjects.forEach((btn, index) => {
     createModal(index);
     showModal();
   });
+});
+
+btnClose2.addEventListener('click', () => {
+  ulModal.innerHTML = '';
+  blur.classList.add('invisible');
+  bodyTag.style.overflow = 'auto';
+  console.log('invisible');
 });
