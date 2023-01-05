@@ -6,8 +6,8 @@ const recentWorksObj = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
     imageURL_desktop: './assets/images/popup/desktop-img.png',
     imageURL_mobile: './assets/images/popup/mobile-img.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    liveDemo: 'https://adelphinsucasa.github.io/',
+    repository: 'https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first',
   },
   {
     id: 'project2',
@@ -16,8 +16,8 @@ const recentWorksObj = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
     imageURL_desktop: './assets/images/popup/desktop-img.png',
     imageURL_mobile: './assets/images/popup/mobile-img.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    liveDemo: 'https://adelphinsucasa.github.io/',
+    repository: 'https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first',
   },
   {
     id: 'project3',
@@ -26,8 +26,8 @@ const recentWorksObj = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
     imageURL_desktop: './assets/images/popup/desktop-img.png',
     imageURL_mobile: './assets/images/popup/mobile-img.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    liveDemo: 'https://adelphinsucasa.github.io/',
+    repository: 'https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first',
   },
   {
     id: 'project4',
@@ -36,8 +36,8 @@ const recentWorksObj = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
     imageURL_desktop: './assets/images/popup/desktop-img.png',
     imageURL_mobile: './assets/images/popup/mobile-img.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    liveDemo: 'https://adelphinsucasa.github.io/',
+    repository: 'https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first',
   },
   {
     id: 'project5',
@@ -46,8 +46,8 @@ const recentWorksObj = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
     imageURL_desktop: './assets/images/popup/desktop-img.png',
     imageURL_mobile: './assets/images/popup/mobile-img.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    liveDemo: 'https://adelphinsucasa.github.io/',
+    repository: 'https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first',
   },
   {
     id: 'project6',
@@ -56,8 +56,8 @@ const recentWorksObj = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloremque ducimus reiciendis dignissimos asperiores quis maiores atque, impedit delectus id laboriosam repellendus sit sed placeat, velit tenetur! Enim, saepe aliquid praesentium possimus facere qui corrupti velit maxime dolorum reprehenderit ullam minus, assumenda repudiandae aspernatur cupiditate cum esse commodi nam perspiciatis!',
     imageURL_desktop: './assets/images/popup/desktop-img.png',
     imageURL_mobile: './assets/images/popup/mobile-img.png',
-    liveDemo: 'https://chelobotix.github.io/Portafolio-Website/',
-    repository: 'https://github.com/chelobotix/Portafolio-Website',
+    liveDemo: 'https://adelphinsucasa.github.io/',
+    repository: 'https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first',
   },
 ];
 
