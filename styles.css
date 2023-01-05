@@ -999,6 +999,117 @@ footer {
     background: #008552;
   }
   
+  .blur {
+    background: rgba(238, 239, 240, 0.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 16px;
+    box-sizing: border-box;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .blur div.modal-project {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #fff;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .blur div.modal-project .close {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .blur div.modal-project img.modal-project {
+    width: 100%;
+  }
+
+  .blur div.modal-project .dsk-pos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .blur div.modal-project h3.modal-project {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    width: 65%;
+  }
+
+  .blur div.modal-project .modal-mobile {
+    display: none;
+  }
+
+  .blur div.modal-project .modal-dsk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: flex-end;
+    justify-self: start;
+    padding-bottom: 40px;
+  }
+
+  .blur div.modal-project .modal-btn-div .modal-btn1,
+  .blur div.modal-project .modal-btn-div .modal-btn2 {
+    background: #36b37f;
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .blur div.modal-project .modal-btn-div .bi {
+    padding-left: 15px;
+  }
+
+  .blur div.modal-project ul.modal-project {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .blur div.modal-project ul.modal-project li {
+    background-color: #ebf0ee;
+    padding: 8px 12px;
+    color: #3a4a42;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .blur div.modal-project p.modal-project {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justify;
+  }
+  
   .footer_icon {
     display: flex;
     align-items: center;
