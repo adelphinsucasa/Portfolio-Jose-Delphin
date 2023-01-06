@@ -183,5 +183,4 @@ btnClose2.addEventListener('click', () => {
   ulModal.innerHTML = '';
   blur.classList.add('invisible');
   bodyTag.style.overflow = 'auto';
-  console.log('invisible');
 });
