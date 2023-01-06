@@ -1,21 +1,20 @@
+function hasLowerCase(str) {
+  const regex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
+  return regex.test(str);
+}
+
 const form = document.getElementById('contact-form');
-const email = form.elements['email'];
+const { email } = form.elements;
 const errMsg = document.getElementById('errMsg');
-const btnSubmit = form.elements['btnSubmit'];
 
 // if valid, submit the form.
 
 form.addEventListener('submit', (event) => {
-    event.preventDefault();
+  event.preventDefault();
 
-    if (!hasLowerCase(email.value)){
-        errMsg.innerHTML = 'The Email content should be in lowercase'; 
-    }else{
-        form.submit();
-    }
-  });
-
-function hasLowerCase(str) {
-    const regex =/^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;  
-    return regex.test(str); 
-}
+  if (!hasLowerCase(email.value)) {
+    errMsg.innerHTML = 'The Email content should be in lowercase';
+  } else {
+    form.submit();
+  }
+});
