@@ -1021,7 +1021,7 @@ footer {
     align-items: center;
     height: 48px;
     width: 447px;
-    border-radius: nullpx;
+    border-radius: 8px;
     gap: 24px;
   }
 
@@ -1090,7 +1090,7 @@ footer {
     color: #172b4d;
     height: 57px;
     width: 100%;
-    border-radius: nullpx;
+    border-radius: 8px;
     margin: 0;
   }
 
@@ -1113,7 +1113,7 @@ footer {
   }
 
   html body .section_works .card_row article .card_container1 ul div .liModal {
-    border-radius: nullpx;
+    border-radius: 8px;
     text-align: center;
     color: #172b4d;
     font-size: 12px;
@@ -1365,7 +1365,7 @@ footer {
   }
 
   small {
-    columns: red;
+    color: red;
   }
 }
 
@@ -1450,7 +1450,7 @@ footer {
     color: #3a4a42;
     height: 57px;
     width: 295px;
-    border-radius: nullpx;
+    border-radius: 8px;
   }
 
   html body .section_works .card_row article .card_container1 ul {
@@ -1620,7 +1620,7 @@ footer {
   }
 
   html body .section_works .card_row article .card_container1 ul div .liModal {
-    border-radius: nullpx;
+    border-radius: 8px;
     text-align: center;
     color: #3a4a42;
   }
