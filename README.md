@@ -50,6 +50,7 @@ This is the Jose Delphin Portfolio, that allows you understand what are my skill
 - Hamburguer Menu mobile version
 - Popup Windows for Desktop and mobile style
 - Contact Form Validation with Javascript 
+- Local Storage Feature
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
