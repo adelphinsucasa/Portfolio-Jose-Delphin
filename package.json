@@ -2,7 +2,7 @@
   "name": "portfolio-setup-and-mobile-first",
   "version": "1.0.0",
   "description": "<a name=\"Portfolio-Setup-and-mobile-first\"></a>",
-  "main": "hamburguer.js",
+  "main": "formValidation.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -49,6 +49,7 @@ This is the Jose Delphin Portfolio, that allows you understand what are my skill
 - Figma
 - Hamburguer Menu mobile version
 - Popup Windows for Desktop and mobile style
+- Contact Form Validation with Javascript 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -138,19 +138,20 @@
       <h3 id="contact-info" class="contact_head">
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </h3>
-      <form action="https://formspree.io/f/meqnjpgd" method="post">
+      <form id="contact-form" action="https://formspree.io/f/meqnjpgd" method="post">
         <input type="text" id="full-name" maxlength="30" name="full_name" placeholder="Full name" required />
         <input
           type="email"
           id="email"
-          name="user-email"
+          name="email"
           placeholder="Email address"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           required
         />
+        <!--pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"-->
         <textarea rows="4" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
         <div class="button_foot_Container">
-          <button class="form_foot_button" type="submit">Get in touch</button>
+          <button class="form_foot_button" type="submit" name="btnSubmit">Get in touch</button>
+          <small id="errMsg"></small>
         </div>
       </form>
 
@@ -200,5 +201,6 @@
 
     <script src="hamburguer.js"></script>
     <script src="popup.js"></script>
+    <script src="formValidation.js"></script>
   </body>
 </html>
