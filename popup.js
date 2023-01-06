@@ -153,7 +153,10 @@ function createModal(index) {
   recentWorksObj[index].technologies.forEach((tech) => {
     const newLi = document.createElement('li');
     newLi.textContent = tech;
+
     ulModal.appendChild(newLi);
+
+    newLi.classList.add('liModal');
   });
   if (window.matchMedia('(max-width: 767px)').matches) {
     ulModal.removeChild(ulModal.lastChild);

@@ -72,6 +72,7 @@ div.hamburguer {
   background-color: white;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   margin-left: -100%;
+  top: 0;
 }
 
 div.hamburguer ul.hamburguer {
@@ -889,7 +890,7 @@ footer {
   .blur {
     background: rgba(238, 239, 240, 0.5);
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -897,17 +898,24 @@ footer {
     padding: 16px;
     box-sizing: border-box;
     overflow-y: auto;
+    max-height: 100vh;
   }
 
   .blur div.modal-project {
-    width: 800px;
     display: flex;
     flex-direction: column;
     padding: 16px;
     background-color: #fff;
     gap: 12px;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 920px;
+    height: 1083px;
   }
 
   .blur div.modal-project .close {
@@ -917,7 +925,8 @@ footer {
   }
 
   .blur div.modal-project img.modal-project {
-    width: 100%;
+    width: 872px;
+    height: 616px;
   }
 
   .blur div.modal-project .dsk-pos {
@@ -1538,7 +1547,8 @@ footer {
   }
 
   .blur div.modal-project img.modal-project {
-    width: 100%;
+    width: 311px;
+    height: 220px;
   }
 
   .blur div.modal-project h3.modal-project {
@@ -1590,23 +1600,31 @@ footer {
   }
 
   .blur div.modal-project ul.modal-project .liModal {
-    background-color: #ebf0ee;
-    padding: 8px 12px;
+    background-color: #fff;
+    padding: 8px 16px;
     color: #3a4a42;
-    border-radius: 4px;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
+    gap: 12px;
+    height: 36px;
+    left: calc((50% - 343px) / 2);
+    top: 20px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
   }
 
   .blur div.modal-project p.modal-project {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0;
     text-align: justify;
+    width: 311px;
+    height: 313px;
+    color: #344563;
   }
 
   html body .section_works .card_row article .card_container1 ul div .liModal {
