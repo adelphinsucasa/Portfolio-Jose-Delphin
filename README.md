@@ -48,6 +48,7 @@ This is the Jose Delphin Portfolio, that allows you understand what are my skill
 - Visual Studio Code 
 - Figma
 - Hamburguer Menu mobile version
+- Popup Windows for Desktop and mobile style
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +107,11 @@ You can deploy this project using visual studio code and Figma.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+👤 **Marcelo Alarcon Barrenechea**
+🇧🇴 Bolivia 💓
+
+- GitHub: [@chelobotix](https://github.com/chelobotix)
+- Linkedin: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
