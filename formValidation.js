@@ -7,8 +7,6 @@ const form = document.getElementById('contact-form');
 const { email } = form.elements;
 const errMsg = document.getElementById('errMsg');
 
-// if valid, submit the form.
-
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
