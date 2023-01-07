@@ -13,7 +13,8 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+    - Walkthrought Video
+    - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [🧑🏻‍💻 Live Demo](#live-demo)
@@ -32,6 +33,11 @@
 
 > A portfolio website is a unique way to showcase my work and let others know about myself. It's a website for my projects, skills, and information about me. In addition, it's one of the best ways I show the world I like big complete projects.
 
+# Walkthrought Video
+
+<a href="https://www.loom.com/share/b7dc4d45224b49ac85e36275880594db">Walkthrough Video</a>
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -47,7 +53,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+#### Key Features <a name="key-features"></a>
 
 - **Mobile version**
 
@@ -74,7 +80,7 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-<a href="https://adelphinsucasa.github.io/">Visit the Live Demo</a>
+<a href="https://adelphinsucasa.github.io/Portfolio-Setup-and-mobile-first/">Visit the Live Demo</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
