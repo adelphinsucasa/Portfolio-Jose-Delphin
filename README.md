@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-    - Walkthrought Video
+    - [Walkthrought Video](#Walkthrought-Video)
     - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -35,7 +35,7 @@
 
 # Walkthrought Video
 
-<a href="https://www.loom.com/share/b7dc4d45224b49ac85e36275880594db">Walkthrough Video</a>
+<iframe src="https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 
 
 ## 🛠 Built With <a name="built-with"></a>
