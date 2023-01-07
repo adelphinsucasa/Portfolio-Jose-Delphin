@@ -34,8 +34,9 @@
 > A portfolio website is a unique way to showcase my work and let others know about myself. It's a website for my projects, skills, and information about me. In addition, it's one of the best ways I show the world I like big complete projects.
 
 # Walkthrought Video
+```sh
 [Video Walkthrough] ([https://www.loom.com/share/462bcc42033749a1b0acc5531acaf3e8](https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db))
-
+```
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -107,7 +108,7 @@ Clone this repository to your desired folder:
 : Jose Alejandro Delphin Puente
 ve Venezuela 💓
 
-- GitHub: [@githubhandle](https://github.com/adelphinsucasa/Hello_Microverse.git)
+- GitHub: [@githubhandle](https://github.com/adelphinsucasa)
 - Twitter: [@twitterhandle](@josedelphin)
 - LinkedIn: [LinkedIn](@adelphin)
 
