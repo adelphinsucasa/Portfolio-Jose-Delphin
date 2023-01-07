@@ -35,7 +35,7 @@
 
 # Walkthrought Video
 
-<iframe src="https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<iframe width="undefined" height="undefined" src="https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 ## 🛠 Built With <a name="built-with"></a>
