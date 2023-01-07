@@ -35,7 +35,7 @@
 
 # Walkthrought Video
 
-https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db
+(https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db)
 
 
 ## 🛠 Built With <a name="built-with"></a>
