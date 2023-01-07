@@ -33,10 +33,9 @@
 
 > A portfolio website is a unique way to showcase my work and let others know about myself. It's a website for my projects, skills, and information about me. In addition, it's one of the best ways I show the world I like big complete projects.
 
-# Walkthrought Video
-```sh
-[Video Walkthrough] ([https://www.loom.com/share/462bcc42033749a1b0acc5531acaf3e8](https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db))
-```
+# Walkthrought Video <a name="Walkthrought-Video"></a>
+[Video Walkthrough] (https://www.loom.com/embed/b7dc4d45224b49ac85e36275880594db))
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
