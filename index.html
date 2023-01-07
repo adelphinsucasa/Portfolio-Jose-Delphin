@@ -148,9 +148,9 @@
           required
         />
         <!--pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"-->
-        <textarea rows="4" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+        <textarea id="message" rows="4" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
         <div class="button_foot_Container">
-          <button class="form_foot_button" type="submit" name="btnSubmit">Get in touch</button>
+          <button class="form_foot_button" type="submit" id="btnSubmit" name="btnSubmit">Get in touch</button>
           <small id="errMsg"></small>
         </div>
       </form>
@@ -202,5 +202,6 @@
     <script src="hamburguer.js"></script>
     <script src="popup.js"></script>
     <script src="formValidation.js"></script>
+    <script src="localStorage.js"></script>
   </body>
 </html>
