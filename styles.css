@@ -1042,7 +1042,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     border-radius: 0;
     padding: 0;
     gap: 24px;
@@ -1057,6 +1057,7 @@ footer {
     border: 1px solid #d0d9d4;
     height: 474px;
     width: 369px;
+    width: calc(100% / 3.5);
     border-radius: 8px;
   }
 
@@ -1107,16 +1108,17 @@ footer {
 
   html body .section_works .card_row article .card_container1 ul div {
     align-items: center;
+    justify-content: stretch;
     border-radius: 4px;
     padding: 8px 12px 8px 12px;
     background: #ebf0ee;
+    font-size: 10px;
   }
 
   html body .section_works .card_row article .card_container1 ul div .liModal {
     border-radius: 8px;
     text-align: center;
     color: #172b4d;
-    font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -1179,7 +1181,7 @@ footer {
 
   .nested_flexbox {
     width: 350px;
-    height: auto;
+    height: 320px;
     margin-bottom: 30px;
   }
 
@@ -1462,6 +1464,7 @@ footer {
     padding: 0;
     gap: 8px;
     list-style-type: none;
+    font-size: 12px;
   }
 
   html body .section_works .card_row article .card_container1 ul div {
@@ -1496,6 +1499,7 @@ footer {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #fff;
+    background-color: #36b37f;
   }
 
   .footer_icon li {
