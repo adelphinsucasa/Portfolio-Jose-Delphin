@@ -78,7 +78,7 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-<a href="https://adelphinsucasa.github.io/Portfolio-Setup-and-mobile-first/">Visit the Live Demo</a>
+[Visit the Live Demo](https://adelphinsucasa.github.io/Portfolio-Jose-Delphin/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
