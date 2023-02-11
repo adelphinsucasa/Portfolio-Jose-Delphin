@@ -39,6 +39,16 @@ const recentWorksObj = [
     liveDemo: 'https://adelphinsucasa.github.io/To-Do-List/dist/',
     repository: 'https://github.com/adelphinsucasa/To-Do-List',
   },
+  {
+    id: 'project5',
+    name: 'Leaderboard',
+    technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
+    description: 'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+    imageURL_desktop: './assets/images/popup/Leaderboard_desktop.jpg',
+    imageURL_mobile: './assets/images/popup/Leaderboard_mobile.jpg',
+    liveDemo: 'https://adelphinsucasa.github.io/Leaderboard/dist/',
+    repository: 'https://github.com/adelphinsucasa/Leaderboard',
+  },
 ];
 
 // Heading Section
@@ -76,7 +86,7 @@ for (let i = 0; i < recentWorksObj.length; i += 1) {
     placeholder.src = recentWorksObj[i].imageURL_desktop;
   }
 
-  h4.textContent = recentWorksObj.name;
+  h4.textContent = recentWorksObj[i].name;
   button.textContent = 'See Projects';
   button.type = 'button';
 

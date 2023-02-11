@@ -1066,6 +1066,7 @@ footer {
     width: 100%;
     border-radius: 8px;
     background: #ebf0ee;
+    opacity: 1;
   }
 
   html body .section_works .card_row article .card_container1 {
@@ -1432,6 +1433,7 @@ footer {
     width: 100%;
     border-radius: 8px;
     background: #ebf0ee;
+    opacity: 1;
   }
 
   html body .section_works .card_row article .card_container1 {
@@ -1470,7 +1472,7 @@ footer {
   html body .section_works .card_row article .card_container1 ul div {
     align-items: center;
     border-radius: 4px;
-    padding: 8px 12px 8px 12px;
+    padding: 4px 6px 4px 6px;
     background: #ebf0ee;
   }
 
