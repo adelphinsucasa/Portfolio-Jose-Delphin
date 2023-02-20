@@ -31,7 +31,7 @@ const recentWorksObj = [
   },
   {
     id: 'project4',
-    name: 'Keeping track of hundreds of components',
+    name: 'To-Do-List',
     technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
     description: 'To Do List is a website to control all the tasks added to a list. The website allows add or remove tasks, display each one of them and select when a task is done.',
     imageURL_desktop: './assets/images/popup/ToDoList_desktop.jpg',
@@ -48,6 +48,16 @@ const recentWorksObj = [
     imageURL_mobile: './assets/images/popup/Leaderboard_mobile.jpg',
     liveDemo: 'https://adelphinsucasa.github.io/Leaderboard/dist/',
     repository: 'https://github.com/adelphinsucasa/Leaderboard',
+  },
+  {
+    id: 'project6',
+    name: 'Capstone Project with Kanban board',
+    technologies: ['Ruby on Rails', 'css', 'Javascript', 'html'],
+    description: 'The Capstone Project is a website that use an API to list a group of cards with Game of Throne Characters, and other API to manage likes and comments of users. Aditional it was built using Kanban board with filled-in tasks that have categories and time estimations to assign work in group.',
+    imageURL_desktop: './assets/images/popup/JSCapstone_desktop.jpg',
+    imageURL_mobile: './assets/images/popup/JSCapstone_mobile.jpg',
+    liveDemo: 'https://adelphinsucasa.github.io/Capstone-Project-with-Kanban-board/dist/',
+    repository: 'https://github.com/adelphinsucasa/Capstone-Project-with-Kanban-board',
   },
 ];
 
